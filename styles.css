@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    padding: 250px;
+    margin: 0;
+    gap: 15px;
+}
+
+.right-side{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    padding: 250px;
+    margin: 0;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
