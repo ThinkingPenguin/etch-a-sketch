@@ -35,11 +35,11 @@ main {
 
 .container {
     display: flex;
-    border: 1px solid black;
+    flex-wrap: wrap;
+    border: 2px solid black;
     padding: 250px;
-    margin: 0;
-    align-self: center;
 }
+
 
 footer {
     display: flex;
